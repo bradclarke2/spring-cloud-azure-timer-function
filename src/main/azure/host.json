@@ -1,0 +1,17 @@
+{
+	"version": "2.0",
+	"functionTimeout": "00:05:00",
+	"tracing": {
+		"consoleLevel": "verbose"
+	},
+	"logger": {
+		"categoryFilter": {
+			"defaultLevel": "verbose",
+			"categoryLevels": {
+				"Host.Results": "verbose",
+				"Function": "verbose",
+				"Host.Aggregator": "verbose"
+			}
+		}
+	}
+}
